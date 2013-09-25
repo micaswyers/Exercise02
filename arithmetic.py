@@ -12,7 +12,7 @@ def multiply(a,b):
 
 def divide(a,b):
     print "DIVIDING %d / %d" % (a, b)
-    return a / b
+    return float(a) / float(b)
 
 def square(a):
     print "SQUARING %d" % a
