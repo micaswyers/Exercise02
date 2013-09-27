@@ -1,15 +1,9 @@
-def add(a,b):
+def add(tokens):
     #print "ADDING %d + %d" %(a, b)
-    return a+b
-"""
-#Working on adding 3+ arguments
-def add_many(*args):
-    input = args
-    tokens = input.split(" ")
-    return tokens[1] + tokens(range(2, len(tokens)-1))
-add_many("+", "2", "3")
-
-"""
+    sum = 0
+    for i in range(len(tokens)):
+        sum += tokens[i]
+    return sum
 
 def subtract(a,b):
     #print "SUBTRACTING %d - %d" % (a, b)
